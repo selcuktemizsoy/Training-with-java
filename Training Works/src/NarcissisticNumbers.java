@@ -1,5 +1,5 @@
 
-public class NarsistNumbers {
+public class NarcissisticNumbers {
 
 	public static void main(String[] args) {
 			
@@ -17,7 +17,7 @@ public class NarsistNumbers {
 			count += Math.pow(temp, length);
 			
 		}
-		String isNarsist =(count == result) ? "Narsist" : "Not narsist";
+		String isNarsist =(count == result) ? "Narcissistic Numbers" : "Not Narcissistic Numbers";
 		System.out.println("Your number is " + result + " and your number is " + isNarsist);
 		
 	}
